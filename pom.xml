@@ -206,6 +206,8 @@
 				<artifactId>findbugs-maven-plugin</artifactId>
 				<version>${findbugsplugin.version}</version>
 			</plugin>
+			
+			<!-- https://docs.sonatype.org/display/Repository/How+To+Generate+PGP+Signatures+With+Maven#HowToGeneratePGPSignaturesWithMaven-MavenGPGPlugin -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-gpg-plugin</artifactId>
@@ -228,6 +230,7 @@
 			</plugin>
 			
 			<!-- Attach the JavaDoc sources -->
+			<!-- http://maven.apache.org/plugin-developers/cookbook/attach-source-javadoc-artifacts.html -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-source-plugin</artifactId>
