@@ -216,9 +216,26 @@
 				<executions>
 					<execution>
 						<id>sign-artifacts</id>
-						<phase>verify</phase>
+						<phase>deploy</phase>
 						<goals>
 							<goal>sign</goal>
+						</goals>
+						<configuration>
+							<keyname>62B72888</keyname>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+			
+			<!-- Attach the JavaDoc sources -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-source-plugin</artifactId>
+				<executions>
+					<execution>
+						<id>attach-sources</id>
+						<goals>
+							<goal>jar</goal>
 						</goals>
 					</execution>
 				</executions>
