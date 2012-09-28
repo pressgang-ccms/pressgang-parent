@@ -76,6 +76,7 @@
 		<cobertura.totalbranchrate>75</cobertura.totalbranchrate>
 		<cobertura.totallinerate>75</cobertura.totallinerate>
 		<cobertura.haltonfailure>false</cobertura.haltonfailure>
+		<gwt.version>2.4.0</gwt.version>
 	</properties>
 
 	<repositories>
