@@ -60,6 +60,7 @@
 		<skipSigning>true</skipSigning>
 		<junit.version>4.9</junit.version>
 		<skipTests>false</skipTests>
+		<skipCheckstyle>false</skipCheckstyle>
 		<skipFindbugs>true</skipFindbugs>
 		<findbugs.failonerror>false</findbugs.failonerror>
 		<java.version>1.6</java.version>
@@ -191,6 +192,7 @@
 				<artifactId>maven-checkstyle-plugin</artifactId>
 				<version>${checkstyleplugin.version}</version>
 				<configuration>
+					<skip>${skipCheckstyle}</skip>
 					<configLocation>https://raw.github.com/codemiller/pressgang-parent/master/checkstyle.xml</configLocation>
 					<consoleOutput>true</consoleOutput>
 				</configuration>
