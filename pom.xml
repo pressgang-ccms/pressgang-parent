@@ -18,8 +18,7 @@
 	<scm>
 		<connection>scm:git:git@github.com:codemiller/pressgang-parent.git</connection>
 		<developerConnection>scm:git:git@github.com:codemiller/pressgang-parent.git</developerConnection>
-		<!--<url>git@github.com:codemiller/pressgang-parent.git</url>-->
-		<url>https://mcasperson@github.com:codemiller/pressgang-parent.git</url>
+		<url>git@github.com:codemiller/pressgang-parent.git</url>		
 	</scm>
 	<developers>
 		<developer>
