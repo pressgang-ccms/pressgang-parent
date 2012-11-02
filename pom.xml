@@ -71,6 +71,7 @@
 		<surefireplugin.version>2.12.2</surefireplugin.version>
 		<surefirereportplugin.version>2.12.2</surefirereportplugin.version>
 		<gpgplugin.version>1.4</gpgplugin.version>
+		<sourceplugin.version>2.2.1</sourceplugin.version>
 		<checkstyleplugin.version>2.6</checkstyleplugin.version>
 		<coberturaplugin.version>2.5.1</coberturaplugin.version>
 		<cobertura.totalbranchrate>75</cobertura.totalbranchrate>
@@ -234,6 +235,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-source-plugin</artifactId>
+                                <version>${sourceplugin.version}</version>
 				<executions>
 					<execution>
 						<id>attach-sources</id>
