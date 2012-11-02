@@ -200,7 +200,7 @@
 				<executions>
 					<execution>
 						<goals>
-							<goal>checkstyle</goal>
+							<goal>check</goal>
 						</goals>
 					</execution>
 				</executions>
