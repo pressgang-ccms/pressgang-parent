@@ -186,7 +186,7 @@
 				<configuration>
 					<skip>${skipCheckstyle}</skip>
 					<configLocation>https://raw.github.com/pressgang-ccms/pressgang-parent/master/checkstyle.xml</configLocation>
-					<consoleOutput>true</consoleOutput>
+					<consoleOutput>false</consoleOutput>
 				</configuration>
 				<executions>
 					<execution>
