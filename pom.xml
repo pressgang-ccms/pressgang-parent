@@ -84,8 +84,6 @@
 					<artifactId>maven-surefire-plugin</artifactId>
 					<version>${surefireplugin.version}</version>
 					<configuration>
-						<!-- Addresses issue caused by incompatibility between Cobertura and 
-							Java7 -->
 						<argLine>-XX:-UseSplitVerifier</argLine>
 						<skipTests>${skipTests}</skipTests>
 					</configuration>
