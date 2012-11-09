@@ -73,10 +73,6 @@
 		<gpgplugin.version>1.4</gpgplugin.version>
 		<sourceplugin.version>2.2.1</sourceplugin.version>
 		<checkstyleplugin.version>2.6</checkstyleplugin.version>
-		<coberturaplugin.version>2.5.1</coberturaplugin.version>
-		<cobertura.totalbranchrate>75</cobertura.totalbranchrate>
-		<cobertura.totallinerate>75</cobertura.totallinerate>
-		<cobertura.haltonfailure>false</cobertura.haltonfailure>
 		<gwt.version>2.4.0</gwt.version>
 	</properties>
 
@@ -93,35 +89,6 @@
 						<argLine>-XX:-UseSplitVerifier</argLine>
 						<skipTests>${skipTests}</skipTests>
 					</configuration>
-				</plugin>
-				<plugin>
-					<groupId>org.codehaus.mojo</groupId>
-					<artifactId>cobertura-maven-plugin</artifactId>
-					<version>${coberturaplugin.version}</version>
-					<configuration>
-						<instrumentation>
-							<excludes>
-								<exclude>**/test/*</exclude>
-							</excludes>
-						</instrumentation>
-						<formats>
-							<format>html</format>
-							<format>xml</format>
-						</formats>
-						<check>
-							<totalBranchRate>${cobertura.totalbranchrate}</totalBranchRate>
-							<totalLineRate>${cobertura.totallinerate}</totalLineRate>
-							<haltOnFailure>${cobertura.haltonfailure}</haltOnFailure>
-						</check>
-					</configuration>
-					<executions>
-						<execution>
-							<phase>package</phase>
-							<goals>
-								<goal>cobertura</goal>
-							</goals>
-						</execution>
-					</executions>
 				</plugin>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
