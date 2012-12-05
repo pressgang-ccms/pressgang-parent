@@ -61,6 +61,7 @@
         <skipTests>false</skipTests>
         <skipIntTests>true</skipIntTests>
         <skipCheckstyle>false</skipCheckstyle>
+        <checkstyleConsoleOutput>false</checkstyleConsoleOutput>
         <skipFindbugs>true</skipFindbugs>
         <findbugs.failonerror>false</findbugs.failonerror>
         <java.version>1.6</java.version>
@@ -75,7 +76,7 @@
         <sourceplugin.version>2.2.1</sourceplugin.version>
         <checkstyleplugin.version>2.6</checkstyleplugin.version>
         <jacoco.version>0.5.10.201208310627</jacoco.version>
-        <gwt.version>2.4.0</gwt.version>
+        <gwt.version>2.5.0</gwt.version>
     </properties>
 
     <build>
@@ -211,7 +212,7 @@
                     <skip>${skipCheckstyle}</skip>
                     <configLocation>https://raw.github.com/pressgang-ccms/pressgang-parent/master/checkstyle.xml
                     </configLocation>
-                    <consoleOutput>false</consoleOutput>
+                    <consoleOutput>${checkstyleConsoleOutput}</consoleOutput>
                 </configuration>
                 <executions>
                     <execution>
