@@ -67,7 +67,8 @@
         <module name="CovariantEquals"/>
         <module name="DefaultComesLast"/>
         <module name="DeclarationOrder"/>
-        <module name="DoubleCheckedLocking"/>
+        <!-- http://stackoverflow.com/questions/12795935/checkstyle-eclipse-plugin-doesnt-work -->
+        <!--module name="DoubleCheckedLocking"/-->
         <module name="EmptyStatement"/>
         <module name="EqualsHashCode"/>
         <module name="ExplicitInitialization"/>
