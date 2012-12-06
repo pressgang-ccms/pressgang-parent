@@ -39,7 +39,6 @@
 		<module name="AvoidStarImport" />
 		<module name="AnonInnerLength" />
 		<module name="ExecutableStatementCount" />
-		<module name="LineLength" />
 		<module name="MethodLength" />
 		<module name="ParameterNumber">
 			<property name="severity" value="warning" />
