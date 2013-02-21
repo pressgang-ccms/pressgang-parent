@@ -141,9 +141,9 @@
 		<module name="DescendantToken" />
 		<module name="ArrayTypeStyle" />
 		<!-- Keeping in line with the JBoss IDE Formatter - https://github.com/jboss/ide-config/blob/master/eclipse/jboss-java-formatter.xml -->
-		<module name="LineLength">
+		<!-- <module name="LineLength">
 			<property name="max" value="128" />
-		</module>
+		</module> -->
 	</module>
 	<module name="Translation">
 		<property name="severity" value="info" />
