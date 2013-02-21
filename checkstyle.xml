@@ -43,8 +43,8 @@
 		<module name="ParameterNumber">
 			<property name="severity" value="warning" />
 		</module>
-		<module name="EmptyForInitializerPad" />
-		<module name="EmptyForIteratorPad" />
+		<!-- <module name="EmptyForInitializerPad" /> -->
+		<!-- <module name="EmptyForIteratorPad" /> -->
 		<!-- <module name="NoWhitespaceAfter" /> -->
 		<!-- <module name="NoWhitespaceBefore" /> -->
 		<!-- <module name="OperatorWrap" /> -->
@@ -66,7 +66,7 @@
 		<!-- <module name="AvoidInlineConditionals" /> -->
 		<module name="CovariantEquals" />
 		<module name="DefaultComesLast" />
-		<module name="DeclarationOrder" />
+		<!-- <module name="DeclarationOrder" /> -->
 		<!-- http://stackoverflow.com/questions/12795935/checkstyle-eclipse-plugin-doesnt-work -->
 		<!--module name="DoubleCheckedLocking"/ -->
 		<module name="EmptyStatement" />
