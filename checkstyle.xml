@@ -102,7 +102,7 @@
 		<module name="PackageDeclaration" />
 		<module name="ParameterAssignment" />
 		<module name="RedundantThrows" />
-		<module name="RequireThis" />
+		<!-- <module name="RequireThis" /> -->
 		<module name="ReturnCount" />
 		<module name="SimplifyBooleanExpression" />
 		<module name="SimplifyBooleanReturn" />
