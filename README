@@ -1,1 +1,1 @@
-Repository for shared PressGang project files.
+This is the shared parent POM for the PressGang CCMS Maven projects. It also contains configuration files for some of the Maven plugins, such as CheckStyle.
