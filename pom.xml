@@ -57,7 +57,7 @@
         </sonatypeOssDistMgmtStagingUrl>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <skipSigning>true</skipSigning>
-        <junit.version>4.9</junit.version>
+        <junit.version>4.11</junit.version>
         <skipTests>false</skipTests>
         <skipIntTests>true</skipIntTests>
         <skipCheckstyle>false</skipCheckstyle>
