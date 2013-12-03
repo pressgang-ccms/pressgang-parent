@@ -75,6 +75,7 @@
         <surefirereportplugin.version>2.12.2</surefirereportplugin.version>
         <gpgplugin.version>1.4</gpgplugin.version>
         <sourceplugin.version>2.2.1</sourceplugin.version>
+        <javadocplugin.version>2.9.1</javadocplugin.version>
         <checkstyleplugin.version>2.6</checkstyleplugin.version>
         <jacoco.version>0.5.10.201208310627</jacoco.version>
         <gwt.version>2.5.0</gwt.version>
@@ -248,7 +249,7 @@
                 <executions>
                     <execution>
                         <id>sign-artifacts</id>
-                        <phase>deploy</phase>
+                        <phase>verify</phase>
                         <goals>
                             <goal>sign</goal>
                         </goals>
@@ -265,6 +266,19 @@
                 <executions>
                     <execution>
                         <id>attach-sources</id>
+                        <goals>
+                            <goal>jar</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <version>${javadocplugin.version}</version>
+                <executions>
+                    <execution>
+                        <id>attach-javadocs</id>
                         <goals>
                             <goal>jar</goal>
                         </goals>
