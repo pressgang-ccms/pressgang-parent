@@ -78,7 +78,7 @@
         <javadocplugin.version>2.9.1</javadocplugin.version>
         <checkstyleplugin.version>2.6</checkstyleplugin.version>
         <jacoco.version>0.5.10.201208310627</jacoco.version>
-        <gwt.version>2.5.0</gwt.version>
+        <gwt.version>2.5.1</gwt.version>
     </properties>
 
     <build>
