@@ -10,8 +10,8 @@
     <url>http://www.jboss.org/pressgang</url>
     <licenses>
         <license>
-            <name>GNU Lesser General Public License, Version 2.1</name>
-            <url>http://www.gnu.org/licenses/lgpl-2.1.html</url>
+            <name>GNU Lesser General Public License, Version 3</name>
+            <url>http://www.gnu.org/licenses/lgpl.html</url>
             <distribution>repo</distribution>
         </license>
     </licenses>
